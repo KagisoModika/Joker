@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Joke from "./Joke";
+import Jokes from "./Jokes";
 
 function App() {
+  const jokeElements = Jokes.map(joke => {
+    return <Joke number = {joke.number} setup={joke.setup} closer={joke.closer} />
+  });
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {jokeElements}
     </div>
   );
 }

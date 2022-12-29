@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  margin: 5px;
+}
+
+.joker-card {
+  /* display: block; */
+  width: 300px;
+  height: 200px;
+  border: 1px gray solid;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.number {
+  font-weight: 300;
+  color: whitesmoke;
+  background: darkslategrey;
+  border-radius: 30px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.setup {
+  font-weight: 500;
+  color: dodgerblue;
+}
+
+.closer {
+  font-weight: 400;
+  color: darkslategray;
+}
