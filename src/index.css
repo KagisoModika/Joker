@@ -15,6 +15,7 @@ code {
 .App {
   display: flex;
   margin: 5px;
+  overflow: hidden;
 }
 
 .joker-card {
