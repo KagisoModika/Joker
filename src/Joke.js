@@ -4,9 +4,9 @@ function Joke(props) {
     //let name = "";
     return(
         <div className="joker-card">
-            <p className="number">{props.joke.number}</p>
-            <h4 className="setup">{props.joke.setup}</h4>
-            <p className="closer">{props.joke.closer}</p>
+            <p className="number">{props.number}</p>
+            <h4 className="setup">{props.setup}</h4>
+            <p className="closer">{props.closer}</p>
 
             {/*`<p>{name}</p>`*/}
         </div>

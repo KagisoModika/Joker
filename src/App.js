@@ -8,7 +8,7 @@ function App() {
         /* number = {joke.number} 
         setup={joke.setup} 
         closer={joke.closer} */
-        joke={joke}
+        {...joke}
       />
     )
   });
