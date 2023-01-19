@@ -19,5 +19,25 @@ export default [
         number: "4",
         setup: "What did the router say to the doctor?",
         closer: "It hurts when IP."
+    },
+    {
+        number: "4",
+        setup: "What did the elephant say to the naked man?",
+        closer: "How do you breathe through that tiny thing?"
+    },
+    {
+        number: "4",
+        setup: "I told my wife she was drawing her eyebrows to high.",
+        closer: "She looked surprised."
+    },
+    {
+        number: "4",
+        setup: "Three guys walk into a bar.",
+        closer: "You'd think one of them would have seen it."
+    },
+    {
+        number: "4",
+        setup: "A skeleton walks into a bar.",
+        closer: "He orders a beer and a mop."
     }
 ]
