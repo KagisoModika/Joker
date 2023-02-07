@@ -21,22 +21,22 @@ export default [
         closer: "It hurts when IP."
     },
     {
-        number: "4",
+        number: "5",
         setup: "What did the elephant say to the naked man?",
         closer: "How do you breathe through that tiny thing?"
     },
     {
-        number: "4",
+        number: "6",
         setup: "I told my wife she was drawing her eyebrows to high.",
         closer: "She looked surprised."
     },
     {
-        number: "4",
+        number: "7",
         setup: "Three guys walk into a bar.",
         closer: "You'd think one of them would have seen it."
     },
     {
-        number: "4",
+        number: "8",
         setup: "A skeleton walks into a bar.",
         closer: "He orders a beer and a mop."
     }
